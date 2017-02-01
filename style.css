@@ -1,0 +1,46 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+body {
+  text-align: center;
+  font-family: Georgia, Serif;
+}
+
+.container {
+  display: table;  
+}
+
+.element {
+  background-color:rgba(242,	242,	242, 0.8);
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  vertical-align: middle;
+  border-radius: 5%;
+}
+
+.title {
+  font-family: Lobster;
+  font-size: 300%;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#location {
+  font-size: 150%;
+  margin-bottom: 20px;
+}
+
+#temperatureSelect, #max_and_min {
+  margin-bottom: 20px;
+}
+
+#current_temp, #max_and_min {
+  font-weight: 600;
+  font-size: 150%;
+}
+
+#main_condition {
+  font-family: Lobster;
+  font-size: 300%;
+  font-weight: 600;
+}

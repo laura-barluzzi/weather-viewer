@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Show your Local Weather</title>
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+
+
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.9/jquery.fullPage.min.css'>
+
+      <link rel="stylesheet" href="style.css">
+
+  
+</head>
+
+<body>
+  <div id="fullpage">
+  <div class="section" id="background">
+    <div class="container-fluid">
+      <div class=container>
+        <div class=element>
+          <div class="title">Your Local Weather
+          </div> <!--title-->
+          <div id="location">
+          </div> <!--location-->
+          <select class="form-control" id="temperatureSelect">
+            <option>Celsius</option>
+            <option>Fahrenheit</option>
+          </select>
+          <div id="current_temp">
+          </div> <!--temperature-->
+          <div id="max_and_min">
+            <span id="temp_min"></span>, 
+            <span id="temp_max"></span>
+          </div> <!-- max_and_min -->
+          <div id="main_condition">
+          </div> <!--"main_condition"-->
+          <img src="#" id="icon_condition"></img>
+        </div> <!--element-->
+      </div> <!--container-->
+    </div> <!--container-fluid-->
+  </div> <!--section-->
+</div> <!--fullpage-->
+  <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.9/jquery.fullPage.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/cloudinary-jquery-file-upload/2.1.9/cloudinary-jquery-file-upload.min.js'></script>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
